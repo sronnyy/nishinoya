@@ -1,0 +1,162 @@
+@import url(./background.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins';
+    font-weight: 300;
+    width: 100%;
+    height: 100vh;
+}
+
+.ctn{
+    max-width: 1440px;
+}
+
+
+header p {
+    font-size: 14px;
+    color: white;
+}
+.icons{
+    column-gap: 40px;
+}
+
+.icons a{
+    font-size: 26px;
+    color: white;
+    transition: 0.4s;
+    
+}
+
+.face:hover{
+    color: #1866FF;
+}
+.insta:hover{
+    color: #BF2B85
+}
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .logo{
+    width: 16%;
+}
+
+.text i{
+    font-size: 20px;
+    color: #1B8DA2;
+}
+.lock i {
+    color: #1B8DA2;
+    font-size: 20px
+}
+
+/* nav */
+
+
+.navigation{
+    background-color: #1B8DA2;
+    width: 100%;
+    height: 60px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+
+
+.nav- > ul{
+    display: flex;
+    padding-left: 85px;
+    column-gap: 38px;
+}
+
+.navigation ul a{
+    font-weight: 00;
+    color: white;
+    font-size: 16px;
+}
+
+.button-1{
+    font-weight: 800;
+    font-size: 16px;
+    background: white;
+    border: none;
+    padding: 21px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-1:hover{
+    background: #1B8DA2;
+    border: 1px solid white;
+    color: white;
+}
+
+#menu{
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s
+
+}
+
+#sub-menu{
+    position: absolute;
+    background-color: white;
+    top: 56px; 
+    border-radius: 2px;
+    width: 220px;
+    height: 180px;
+    
+}
+
+#sub-menu li{  
+    padding: 16px;
+}
+
+
+#sub-menu li a{
+    color: black;
+    
+}
+
+.active{
+    display: none;
+}
+

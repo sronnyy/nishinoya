@@ -1,0 +1,69 @@
+main{
+    align-self: flex-end;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: flex-end;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+main div button{
+    width: 40px;
+    height: 40px;
+
+    background: transparent;
+    border-radius: 100%;
+    border: 1px solid var(--text);
+    transition: opacity 0.4;
+}
+
+main div button:disabled{
+    opacity: 0.6;
+}
+
+main div button svg path{
+    color: white ;
+}
+
+#member-name{
+    font-size: 150px;
+    letter-spacing: 6px;
+    font-weight: 400px;
+    padding-right: 20px;
+
+    color: transparent;
+    font-family: 'Star Guard Italic';
+    background: var(--peter);
+    -webkit-background-clip: text;
+}
+
+#member-name.peter{
+    background: var(--peter);
+    -webkit-background-clip: text;
+}
+#member-name.gamora{
+    background: var(--gamora);
+    -webkit-background-clip: text;
+}
+#member-name.drax{
+    background: var(--drax);
+    -webkit-background-clip: text;
+}
+#member-name.mantis{
+    background: var(--mantis);
+    -webkit-background-clip: text;
+}
+#member-name.rocket{
+    background: var(--rocket);
+    -webkit-background-clip: text;
+}
+#member-name.groot{
+    background: var(--groot);
+    -webkit-background-clip: text 
+}
